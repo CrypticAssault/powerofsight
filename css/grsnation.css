@@ -1,0 +1,27 @@
+h1 {
+    font-size: 75px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 35px;
+    text-align: center;
+    color: #8296b0;
+}
+
+p {
+    font-size: 25px;
+    margin: 75px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centered-image {
+    max-width: 100%; /* Adjust to fit within the viewport */
+    height: auto; /* Maintain aspect ratio */
+}

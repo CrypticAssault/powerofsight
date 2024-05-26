@@ -1,0 +1,36 @@
+h1 {
+    font-size: 75px;
+    text-align: center;
+}
+
+.team_card {
+    max-width: 200px;
+}
+
+.team_card img {
+    max-width: 200px;
+}
+
+.team_card h1{
+    font-size: 25px;
+}
+
+.team_card p {
+    text-align: center;
+}
+
+.row-1 {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.row-2 {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}

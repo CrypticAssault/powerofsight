@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/index-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main {
+    position: absolute; /* Position content relative to .background-container */
+    left: 50%; /* Center horizontally */
+    color: white; /* Text color for readability */
+    text-align: center; /* Center text */
+    color: yellow;
+}
+
+h1 {
+    font-size: 100px;
+    transform: translate(-50%, -30%); /* Adjusts the positioning to be truly centered */
+    top: 30%; /* Center vertically */
+}
+
+h2 {
+    font-size: 55px;
+    transform: translate(-50%, 60%); /* Adjusts the positioning to be truly centered */
+    top: 60%; /* Center vertically */
+}
+
+h3 {
+    font-size:35px;
+    transform: translate(-50%, 30%); /* Adjusts the positioning to be truly centered */
+    top: 30%; /* Center vertically */
+}
